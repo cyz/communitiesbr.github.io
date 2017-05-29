@@ -74,11 +74,11 @@ body {
   background-color: #fff;
   border-bottom: 1px solid rgba(215, 215, 215, 0.5); }
   .navbar-maker .navbar-toggle {
-    margin-top: 30px; }
+    margin-top: 18px; }
   .navbar-maker .navbar-right {
     padding-left: 15px; }
   .navbar-maker .icon-bar {
-    background-color: #fff; }
+    background-color: #000; }
   .navbar-maker .navbar-nav__link {
     font-size: 15px;
     text-transform: uppercase;
