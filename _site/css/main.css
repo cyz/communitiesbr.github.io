@@ -1,0 +1,264 @@
+body {
+  font-family: 'Fira Sans', sans-serif; }
+
+.article-makers {
+  margin: 35px 0; }
+  .article-makers .article-makers__quote {
+    font-size: 35px;
+    font-weight: 100;
+    text-align: right;
+    border: none;
+    padding: 35px;
+    margin: 35px 0; }
+  .article-makers .article-makers__text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: justify; }
+    .article-makers .article-makers__text.article-makers__text--ds {
+      margin-top: 25px; }
+
+.cover__mission-list {
+  padding: 0;
+  list-style: none;
+  text-align: left; }
+  .cover__mission-list .cover__mission-item {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 25px;
+    text-align: left;
+    color: #fff;
+    height: 105px;
+    position: relative;
+    padding-right: 0;
+    padding-left: 15px; }
+    .cover__mission-list .cover__mission-item span {
+      margin-left: 40px;
+      float: left;
+      display: block;
+      font-size: 1.7rem; }
+  .cover__mission-list .fa {
+    font-size: 3rem;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 30%; }
+
+.maker-phrase {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(215, 215, 215, 0.13); }
+  .maker-phrase .maker-phrase__desc {
+    font-size: 2.7rem;
+    font-weight: 300;
+    margin: 0; }
+    .maker-phrase .maker-phrase__desc strong {
+      font-weight: 500; }
+
+.cover {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 520px;
+  background: url(../img/cover.jpg) center no-repeat;
+  background-size: cover; }
+  .cover.cover--about {
+    background: url(../img/cover-about.jpg) center no-repeat;
+    background-size: cover; }
+
+.navbar-maker {
+  margin-bottom: 0;
+  border: none;
+  border-radius: initial;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(215, 215, 215, 0.5); }
+  .navbar-maker .navbar-toggle {
+    margin-top: 30px; }
+  .navbar-maker .navbar-right {
+    padding-left: 15px; }
+  .navbar-maker .icon-bar {
+    background-color: #fff; }
+  .navbar-maker .navbar-nav__link {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Oswald', sans-serif; }
+    .navbar-maker .navbar-nav__link:hover, .navbar-maker .navbar-nav__link:active, .navbar-maker .navbar-nav__link:visited {
+      background: none; }
+    .navbar-maker .navbar-nav__link:hover {
+      color: #fff;
+      background: #000; }
+  .navbar-maker .navbar-nav__licon {
+    display: inline-block;
+    color: #fff; }
+    .navbar-maker .navbar-nav__licon:hover, .navbar-maker .navbar-nav__licon:active, .navbar-maker .navbar-nav__licon:visited {
+      background: none; }
+    .navbar-maker .navbar-nav__licon:hover {
+      color: #FFE300; }
+
+.btn-inscricao {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  width: 150px;
+  padding: 20px 15px;
+  display: block;
+  background: #0072c6;
+  color: #fff;
+  margin: 25px auto 0; }
+  .btn-inscricao:hover {
+    background: #000;
+    color: #fff; }
+
+.navbar-maker__brand {
+  display: block;
+  padding: 10px 15px;
+  width: 200px; }
+  .navbar-maker__brand img {
+    max-width: 100%; }
+
+.cover__mission {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .cover__mission.cover__mission--home {
+    bottom: 30px; }
+  .cover__mission .cover__title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff; }
+    .cover__mission .cover__title.cover__title--home {
+      padding-left: 35px; }
+      .cover__mission .cover__title.cover__title--home:before {
+        content: "{";
+        font-size: 90px;
+        display: block;
+        position: absolute;
+        left: 5px;
+        top: 21%; }
+
+.work {
+  margin: 60px 0 100px; }
+  .work .work-resume__memories {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 70px; }
+    .work .work-resume__memories strong {
+      font-weight: 500; }
+
+.work-resume {
+  text-align: right;
+  margin-right: 50px;
+  padding: 50px 0 0; }
+  .work-resume .work-resume__count {
+    font-size: 10rem;
+    font-weight: 900;
+    line-height: 8rem;
+    font-style: italic; }
+  .work-resume .work-resume__text {
+    font-size: 3rem;
+    display: block;
+    font-weight: 900;
+    font-style: italic; }
+
+.ctn-schedule {
+  width: 100%;
+  padding: 40px 0;
+  color: #fff;
+  background: #000; }
+  .ctn-schedule h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem; }
+  .ctn-schedule h3 {
+    font-weight: 100;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif; }
+    .ctn-schedule h3 span {
+      font-weight: 500;
+      margin-right: 15px; }
+  .ctn-schedule p {
+    font-size: 1.7rem;
+    font-weight: 100; }
+
+.ctn-local {
+  padding: 40px 0; }
+  .ctn-local iframe {
+    border: none; }
+  .ctn-local p {
+    font-size: 1.7rem;
+    font-weight: 100; }
+  .ctn-local a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    width: 120px;
+    padding: 20px 15px;
+    background: #0072c6;
+    display: block;
+    text-align: center; }
+
+.footer-makers {
+  width: 100%; }
+  .footer-makers .footer-makers__title {
+    margin: 0 0 15px 0;
+    font-size: 20px; }
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .footer-list .footer-list__item {
+    margin-bottom: 5px; }
+  .footer-list .footer-list__link {
+    color: #fff; }
+    .footer-list .footer-list__link:hover {
+      color: #FFE300;
+      text-decoration: none; }
+
+.footer-signature {
+  padding: 40px 0 0; }
+  .footer-signature .footer-signature__image {
+    width: 85px;
+    height: 70px;
+    padding: 0;
+    float: left; }
+  .footer-signature .footer-signature__license {
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #ccc; }
+
+.ctn-local--place {
+  border: 3px solid #000;
+  padding: 20px; }
+  .ctn-local--place h3 {
+    font-weight: 100;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif; }
+
+.footer-strong {
+  background-color: #16181B; }
+  .footer-strong .footer-strong__image {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    color: #fff; }
+
+@media (min-width: 768px) {
+  .navbar-maker .navbar-nav {
+    margin-top: 10px; } }
+@media (max-width: 625px) {
+  .cover__title {
+    font-size: 36px; }
+
+  .article-makers .article-makers__quote {
+    margin: 0;
+    font-size: 3rem;
+    padding: 0; } }
+.navbar-nav > li > a.nav-insc {
+  background: #0072c6;
+  color: #fff; }
