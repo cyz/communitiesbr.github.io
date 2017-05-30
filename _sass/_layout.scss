@@ -76,6 +76,12 @@ body {
             font-weight: 500;
         }
     }
+
+    img {
+        max-width: 400px;
+        margin: 20px auto 50px;
+        display: block;
+    }
 }
 
 .cover {
@@ -241,6 +247,13 @@ body {
     }
 }
 
+.ct-title {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
 .ctn-schedule {
     width: 100%;
     padding: 100px 20px 40px;
@@ -274,7 +287,7 @@ body {
 }
 
 .ctn-local {
-    padding: 100px 20px 40px;
+    padding: 60px 20px 40px;
 
     iframe {
         border: none;

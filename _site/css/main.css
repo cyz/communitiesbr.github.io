@@ -55,6 +55,10 @@ body {
     margin: 0; }
     .maker-phrase .maker-phrase__desc strong {
       font-weight: 500; }
+  .maker-phrase img {
+    max-width: 400px;
+    margin: 20px auto 50px;
+    display: block; }
 
 .cover {
   position: relative;
@@ -163,6 +167,12 @@ body {
     font-weight: 900;
     font-style: italic; }
 
+.ct-title {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px; }
+
 .ctn-schedule {
   width: 100%;
   padding: 100px 20px 40px;
@@ -186,7 +196,7 @@ body {
     font-weight: 100; }
 
 .ctn-local {
-  padding: 100px 20px 40px; }
+  padding: 60px 20px 40px; }
   .ctn-local iframe {
     border: none; }
   .ctn-local p {
